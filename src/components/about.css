@@ -1,0 +1,353 @@
+/* 
+  @import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&family=Tilt+Neon&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&family=Tilt+Neon&display=swap');
+.commissioner{
+    display: flex;
+    height: 500px;
+    width: 100%;
+    /* background-image: url("http://localhost:3000/bg1.jpg"); */
+/* }
+.photo{
+    display:block;
+    
+}
+.font>h2{
+    
+    font-family: 'Teko', sans-serif;
+font-family: 'Tilt Neon', cursive;
+}
+.font>h3{
+    margin-top: -1rem;
+    font-family: 'Teko', sans-serif;
+font-family: 'Tilt Neon', cursive;
+}
+.photo img{
+    border-radius: 1rem;
+    height: 70%;
+    margin-top: 4rem;
+    width:300px;
+    
+}
+.message{
+    margin-top: 4rem;
+    font-family: 'Teko', sans-serif;
+font-family: 'Tilt Neon', cursive;
+    background-color: rgb(97, 97, 210);
+    border-radius: 1rem;
+    height: 50%;
+    width:100%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+   text-align: start;
+    margin-right: 150px;
+    padding: 1rem;
+    box-shadow: rgba(59, 46, 240, 0.4) 5px 5px, rgba(59, 69, 216, 0.3) 10px 10px, rgba(22, 29, 227, 0.2) 15px 15px, rgba(46, 72, 240, 0.1) 20px 20px, rgba(78, 46, 240, 0.05) 25px 25px;
+    
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Roboto:wght@400&display=swap');
+
+
+
+
+.container1{
+    position: relative;
+    width: 800px;
+    min-width: 350px;
+    min-height: 250px;
+    padding-bottom: 40px;
+    overflow: hidden;
+}
+
+.wrapper1{
+    width: 300%;
+    /* 300% 'caz we have 3 cards */
+    /* min-height: 100%;
+    display: flex;
+    justify-content: space-between;
+    transition: 1s;
+}
+
+.card1{
+    width: 800px;
+    min-height: 100%;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 0 10px;
+}
+
+.card-thumb1{
+    width: 70%;
+    height: 250px;
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: relative;
+}
+
+.client-img1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.client-name1{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    padding: 5px 20px;
+    background: #fff;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+.card-body1{
+    width: 120%;
+    min-height: 100%;
+    height: auto;
+    margin-left: 20px;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.review1{
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+.rating1{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.star1{
+    width: 25px;
+    margin-right: 5px;
+}
+
+.indicators1{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.indicators1 button{
+    background: none;
+    border: none;
+    outline: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    cursor: pointer;
+    margin-left: 5px;
+    transition: .5s;
+}
+
+button.active1{
+    width: 40px;
+    border-radius: 50px;
+    background: #fff;
+}
+
+@media (max-width: 800px){
+    .container1{
+        width: 50%;
+        margin: auto;
+    }
+    .card1{
+        flex-direction: column;
+    }
+    .card-thumb1{
+        width: 100%;
+        border-radius: 10px;
+    }
+    .card-body1{
+        width: 100%;
+        min-height: auto;
+        margin-left: 0;
+    }
+} 
+/* 
+ */ */
+
+.carousel-root {
+    
+    width: 100%;
+    /* margin: auto !important;
+    margin-top: 3% !important; */
+  }
+  
+  .carousel .slide {
+    background: #fff ;
+    width: 100%;
+  
+    color: black;
+    height: 100%;
+  }
+  
+  .carousel .slide img {
+    position: relative;
+    /* bottom: 10%; */
+    /* right: 30%; */
+    width: 400px ;
+    height: 200px;
+    border-radius: 1rem;
+  }
+  
+  .class{
+    display: flex;
+    flex-direction: column;
+  }
+  .myCarousel {
+    display: flex;
+    background: #fafafa;
+    margin-top: -6%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 6%;
+    padding-bottom: 8%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: 1px solid #ddd;
+    height: 800px;
+  } */
+  
+  .carousel .control-dots {
+    padding-left: 5px;
+    outline: 0;
+    bottom: 5% ;
+  }
+  
+  .myCarousel h3 {
+    color: #222;
+    font-weight: 100;
+    letter-spacing: 0.2px;
+    margin-bottom: 4px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 17px;
+  }
+  .container-text{
+    left: 200px;
+    position: relative;
+    border-radius: 1rem;
+    width: 600px;
+    height: 250px;
+    border: #ffffff;
+    background-color: #e8c0ee;
+  }
+  
+  .myCarousel h4 {
+    text-transform: uppercase;
+    margin-top: 0;
+   
+    padding-top: 0;
+    font-weight: 500;
+    color: #787878;
+    font-size: 14px;
+  }
+  
+  .myCarousel p {
+    font-weight: 100 ;
+    line-height: 29px ;
+    color: #222;
+    font-size: 15px;
+    font-family: sans-serif;
+    max-height: 67px;
+  }
+  
+
+  .carousel .control-dots .dot {
+    box-shadow: none ;
+    background: #454545 ;
+    outline: 0;
+  }
+  
+  .carousel.carousel-slider .control-arrow {
+    background: #000 ;
+    height: 50px ;
+    position: absolute;
+    top: 35% ;
+  }
+  
+  
+  
+  @media only screen and (max-width: 934px) {
+    .carousel-root {
+      outline: 0;
+      width: 93%;
+      margin: autot;
+    }
+  
+    .carousel.carousel-slider .control-arrow {
+      display: none ;
+    }
+    .myCarousel {
+      background: #fafafa;
+      margin-top: -9%;
+      width: 88%;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 8%;
+      padding-bottom: 12.5%;
+      padding-left: 5%;
+      padding-right: 5%;
+      border: 1px solid #ddd;
+      height: 269px;
+    }
+  
+    .carousel .slide img {
+      width: 24%  ;
+      border-radius: 50%;
+    }
+  }
+
+  .testimonial .pic{
+    width: 22%;
+    padding: 20px 0;
+    margin: 0 6% 0 2%;
+    float: left;
+    position: relative;
+    z-index: 1;
+}
+.testimonial .pic:before,
+.testimonial .pic:after{
+    content: "";
+    width: 130px;
+    height: 150px;
+    background: #e1c37d;
+    position: absolute;
+    z-index: -1;
+}
+.testimonial .pic:before{
+    top: 0;
+    right: -20px;
+}
+.testimonial .pic:after{
+    bottom: 0;
+    left: -20px;
+}
+.testimonial .pic img{
+    width: 400px;
+    height: 400px;
+    height: auto;
+    border: 3px solid #e1c37d;
+}

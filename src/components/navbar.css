@@ -1,0 +1,251 @@
+
+.navbar {
+	
+	display: flex;
+	align-self: auto;
+	justify-content: center; 
+	font-size: 1.2rem;
+	/* position:fixed; */
+	width: 100%;
+	/* top: 0; */
+	z-index: 20;
+	overflow-y: visible;
+	
+  }
+  #header_active{
+	top: 0;
+  }
+  .navbar.active{
+         /* background-color: #00e92f ;
+		 box-shadow: #fff; */
+		 background-image: url("http://localhost:3000/nav_bg.jpeg");
+		 background-repeat: no-repeat;
+		 background-size: cover;
+		 position: fixed;
+		 top: 0;
+  }
+  .Link{
+	font-size: 1rem;
+	color: #000000;
+  }
+ #dept{
+	font-size: 2rem;
+	color: #000000;
+
+ }
+  .nav-container {
+	display: flex;
+	/* overflow: hidden; */
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 50px;
+	max-width: 1500px;
+  }
+  
+  .nav-logo {
+	color: #030303;
+	
+	margin-left: 20px;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 2rem;
+	flex-grow: 1;
+	visibility: hidden;
+  }
+  .nav{
+	color: #000000;
+	font-size: 2rem;
+	margin-left: 30px;
+	display: flex;
+  }
+  .nav-menu {
+	display: flex;
+	list-style: none;
+	text-align: center;
+	margin-right: 2rem;
+  }
+  
+  .nav-links {
+	color: #000000;
+	text-decoration: none;
+	padding: 0.2rem 1rem;
+	height: 100%;
+	border-bottom: 2px solid transparent;  
+  }
+  .fa-code {
+	margin-left: 1rem;
+  }
+  
+  .nav-item {
+	line-height: 10px;
+	border-radius: 8px;
+	margin-right: 1rem;
+	cursor: pointer;
+	font-size: 1rem;
+	padding-top: 5px;
+	height: 30px;
+	justify-content: center;
+	align-items: center;
+	
+  }
+  .nav-item:hover{
+	background-color: rgba(0, 255, 255, 0.238);
+	
+  }
+  
+  /* .nav-item:hover .dropdown-menu{
+	opacity: 1;
+  } */
+  
+  /* .nav-item:after {
+	content: "";
+	display: block;
+	margin: auto;
+	height: 3px;
+	width: 0;
+	background:black;
+	transition: width 0.7s ease, background-color 0.5s ease;
+  }
+  
+  .nav-item:hover:after {
+	width: 70%;
+	margin-top: -10px;
+	background: black;
+  }
+  
+  .nav-item .active {
+	color: #141313;
+	border: 1px solid #100f0f;
+	background-color: aqua;
+  }
+   */
+  .nav-icon {
+	display: none;
+  }
+  
+  @media screen and (max-width: 960px) {
+	.nav-menu {
+	  display: flex;
+	  flex-direction: column;
+	  width: 100%;
+	  border-top: 1pxsolid #fff;
+	  position: absolute;
+	  top: -20px;
+	  left: -80%;
+	  opacity: 1;
+	  transition: all 0.5s ease;
+	}
+  
+	.nav-menu.active {
+	  background: #bc82dd;
+	  left: -5px;
+	  opacity: 1;
+	  transition: all 0.5s ease;
+	  z-index: 1;
+	  
+	}
+	.nav-item .active {
+	  color: #000000;
+	  border: none;
+	}
+	.nav-links {
+	  padding: 1rem;
+	  width: 90%;
+	  display: flex;
+	 justify-content: center;
+	 margin-left: -30px;
+	 
+	}
+  
+	.nav-icon {
+	  display: flex;
+	  position:fixed;
+	  top: 0;
+	right: 0;
+
+	  transform: translate(-100%, 60%);
+	  font-size: 1.8rem;
+	  cursor: pointer;
+	  color: #212121;
+	}
+  }
+  .nav img{
+	
+	margin-top: 30px;
+  }
+ 
+  .drop-menu-button {
+	position: relative;
+  }
+  
+  .drop-menu-button button {
+	padding: 8px 12px;
+	border: none;
+	border-radius: 4px;
+	background-color: #f0f0f0;
+	cursor: pointer;
+  }
+  
+  .drop-menu-button .menu-options {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1;
+	width: 100%;
+	max-height: 200px;
+	overflow-y: auto;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .drop-menu-button .menu-options div {
+	padding: 8px 12px;
+	cursor: pointer;
+  }
+  
+  .drop-menu-button .menu-options div:hover {
+	background-color: #f0f0f0;
+  }
+.dropdown-menu1{
+	border:1px solid black;
+	position: absolute;
+	top: 40px;
+	right: 50px;
+	
+}
+#link1{
+	background-color: aqua;
+}
+
+.dropdown-act{
+	background-color: #ffffff;
+    border: 5px solid #ffffff;
+    box-shadow: 0 0 15px rgb(0 0 0 / 30%);
+    border-radius: 10px;
+	width: 180px;
+	opacity: 0;
+	
+	
+}
+#nav-item1{
+	width:150px;
+}
+.dropdown-act li{
+	padding: 10px;
+	font-size: 15px;
+	
+}
+.dropdown-act li:hover{
+	background-color: #ccc;
+}
+#drop::after .dropdown-act{
+	opacity: 1;
+}
+/*css*/
+
+
+
+ 

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&family=Tilt+Neon&display=swap');
+.heading{
+    font-family: 'Teko', sans-serif;
+    font-family: 'Tilt Neon', cursive;
+    font-size:2.5rem;
+    padding: 0.5rem;
+    margin: auto;
+    text-transform: uppercase;
+}
+.container-wrap{
+    display:flex;
+    flex-direction: row;
+}
+
+.container{
+    background-color: #ffffff;
+    border: 5px solid #ffffff;
+    box-shadow: 0 0 15px rgb(0 0 0 / 30%);
+    border-radius: 10px;
+    margin: 40px;
+    margin-top: 15px;
+    /* margin-bottom: 15px; */ 
+   
+    height: 285px;
+    width: 400px;
+    overflow:hidden;
+    
+    font-size: 20px;
+}
+img{
+    padding: 1rem;
+    width: 50px;
+    height: 50px;
+}
+.text{
+    padding: 1rem;
+    margin: 5px;
+    font-family: 'Teko', sans-serif;
+    font-family: 'Tilt Neon', cursive;
+}
+@media screen and (max-width: 960px) {
+    .container-wrap{
+        flex-direction: column;
+    }
+    .text{
+        font-size: large;
+    }
+}
+.container:hover img{
+    width: 60px;
+}
